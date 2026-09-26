@@ -1,0 +1,6 @@
+{
+  "name": "Sahay - Financial Assistance Discovery",
+  "description": "Public-service financial assistance discovery platform for citizens to match government welfare schemes, estimate indicative financing, and connect with certified local channel partners.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

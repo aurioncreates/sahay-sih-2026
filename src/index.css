@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Public Sans", sans-serif;
+  --font-body: "Source Sans 3", sans-serif;
+
+  --color-deep-teal: #124C5F;
+  --color-ink-navy: #102A32;
+  --color-muted-saffron: #D99A32;
+  --color-warm-ivory: #FAF8F3;
+  --color-white: #FFFFFF;
+  --color-pale-teal: #E6F0F0;
+  --color-forest-green: #34745A;
+  --color-charcoal: #263238;
+  --color-warm-gray: #73706A;
+  --color-beige-gray: #E5E0D6;
+}
+
+html {
+  font-size: 17.5px;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #FAF8F3;
+  color: #263238;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Public Sans", sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Accessible focus styling */
+:focus-visible {
+  outline: 2px solid #124C5F;
+  outline-offset: 2px;
+}
